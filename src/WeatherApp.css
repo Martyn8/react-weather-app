@@ -1,0 +1,13 @@
+.WeatherApp {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid black;
+  flex-direction: column;
+
+  margin-top: 20%;
+  padding: 30px 50px 30px 50px;
+}
