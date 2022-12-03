@@ -3,11 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import WeatherApp from "./WeatherApp";
 import reportWebVitals from "./reportWebVitals";
+import Signature from "./components/Signature/SIgnature";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <WeatherApp />
+    <Signature />
   </React.StrictMode>
 );
 
